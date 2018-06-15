@@ -13,15 +13,19 @@
 
 <body>
   <!--Nav Bar-->
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+    <!--container helps center all the elements-->
     <div class="container">
+      <!--Branding Area-->
       <a href="index.html" class="navbar-brand">LoopLAB</a>
       <!--Start of the Hamburger Menu-->
-      <button class="navbar-toggler" data-toggle="collaspe" data-target="#navbarCollapse"><span class="navbar-toggle-icon"></span></button>
-      <div class="collaspe navbar-collaspe" id="navbarCollapse">
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a href="#home-head-section" class="nav-link">Home</a>
+            <a href="#home" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
             <a href="#explore-head-section" class="nav-link">Explore</a>
@@ -37,6 +41,78 @@
       <!--End of Hamburger Menu-->
     </div>
   </nav>
+
+  <!--Start of Home Section-->
+  <header id="home-section">
+    <!--This div is for the overlay that will cover the background-image-->
+    <div class="dark-overlay">
+      <!--This div is for the content-->
+      <div class="home-inner container">
+        <div class="row">
+          <!--Content won't display on anything less than a lg screen (d-none)-->
+          <!--Content will display if it is on a lg screen (d-lg-block)-->
+          <div class="col-lg-8 d-none d-lg-block">
+            <h1 class="display-4">Build <strong>social profiles</strong> and gain revenue <strong>profits</strong></h1>
+            <!--Flexbox Starts Here-->
+            <!--(d-flex) will align content horizontally-->
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <!--This is Font Awesome and Font Awesome classes-->
+                <i class="fas fa-check fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae quas non, cumque temporibus, beatae necessitatibus.
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-check fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae quas non, cumque temporibus, beatae necessitatibus.
+              </div>
+            </div>
+            <div class="d-flex">
+              <!--(align-self-start)-aligns element to the beginning of the page-->
+              <div class="p-4 align-self-start">
+                <i class="fas fa-check fa-2x"></i>
+              </div>
+              <!--(align-self-end)=aligns element after the element that is self-start-->
+              <div class="p-4 align-self-end">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae quas non, cumque temporibus, beatae necessitatibus.
+              </div>
+            </div>
+            <!--Flexbox Ends Here-->
+          </div>
+          <div class="col-lg-4">
+            <div class="card bg-primary text-center card-form">
+              <div class="card-body">
+                <h3>Sign Up Today</h3>
+                <p>Please fill out this form</p>
+                <form>
+                  <div class="form-group">
+                    <input type="text" class="form-control form-control-lg" placeholder="Username">
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control form-control-lg" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control form-control-lg" placeholder="Password">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control form-control-lg" placeholder="Confirm Password">
+                  </div>
+                  <input type="submit" value="Submit" class="btn btn-outline-light btn-block">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--End of Home Section-->
+
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
