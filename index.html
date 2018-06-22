@@ -11,9 +11,9 @@
   <title>Bootstrap Theme</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#main-nav" id="home">
   <!--Nav Bar-->
-  <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
     <!--container helps center all the elements-->
     <div class="container">
       <!--Branding Area-->
@@ -41,6 +41,7 @@
       <!--End of Hamburger Menu-->
     </div>
   </nav>
+  <!--End of NavBar-->
 
   <!--Start of Home Section-->
   <header id="home-section">
@@ -117,15 +118,243 @@
   </header>
   <!--End of Home Section-->
 
+  <!--Explore HEAD  -->
+  <section id="explore-head-section">
+    <div class="container">
+      <div class="row">
+        <!--"py-5" = 5 level padding on the Y axis (vertical)-->
+        <div class="col text-center py-5">
+        <h1 class="display-4">Explore</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet repellendus eos quas illo impedit ullam fugit expedita nesciunt quam debitis.</p>
+        <a href="#" class="btn btn-outline-secondary">Find Out More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Explore HEAD Ends-->
+
+  <!--EXPLORE SECTION-->
+  <section id="explore-section" class="bg-light text-muted py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/explore-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+        </div>
+        <div class="col-md-6">
+          <h3>Explore & Connect</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis dolorem, officia nulla, maxime quis possimus distinctio! Labore ex esse, eum.</p>
+          <!--START OF CHECKMARKS  -->
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam itaque nostrum quia laboriosam, est id?
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam itaque nostrum quia laboriosam, est id?
+            </div>
+            <!--END OF CHECKMARKS-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--END OF EXPLORE SECTION-->
+
+  <!--CREATE HEAD  -->
+  <section id="create-head-section" class="bg-primary">
+    <div class="container">
+      <div class="row">
+        <!--"py-5" = 5 level padding on the Y axis (vertical)-->
+        <div class="col text-center py-5">
+        <h1 class="display-4">Create</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet repellendus eos quas illo impedit ullam fugit expedita nesciunt quam debitis.</p>
+        <a href="#" class="btn btn-outline-light">Find Out More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--CREATE HEAD Ends-->
+
+  <!--CREATE SECTION-->
+  <section id="create-section" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 order-2">
+          <img src="img/create-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+        </div>
+        <div class="col-md-6 order-1">
+          <h3>Create your Passion</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis dolorem, officia nulla, maxime quis possimus distinctio! Labore ex esse, eum.</p>
+          <!--START OF CHECKMARKS  -->
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam itaque nostrum quia laboriosam, est id?
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam itaque nostrum quia laboriosam, est id?
+            </div>
+            <!--END OF CHECKMARKS-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--END OF CREATE SECTION-->
+
+
+  <!--SHARE HEAD STARTS-->
+  <section id="share-head-section" class="bg-primary">
+    <div class="container">
+      <div class="row">
+        <!--"py-5" = 5 level padding on the Y axis (vertical)-->
+        <div class="col text-center py-5">
+        <h1 class="display-4">Share</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet repellendus eos quas illo impedit ullam fugit expedita nesciunt quam debitis.</p>
+        <a href="#" class="btn btn-outline-light">Find Out More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--SHARE HEAD ENDS-->
+
+  <!--SHARE SECTION-->
+  <section id="share-section" class="bg-light text-muted py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/share-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+        </div>
+        <div class="col-md-6">
+          <h3>Share what you Create</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis dolorem, officia nulla, maxime quis possimus distinctio! Labore ex esse, eum.</p>
+          <!--START OF CHECKMARKS  -->
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam itaque nostrum quia laboriosam, est id?
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam itaque nostrum quia laboriosam, est id?
+            </div>
+            <!--END OF CHECKMARKS-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--SHARE SECTION ENDS-->
+
+  <!--FOOTER-->
+  <footer id="main-footer" class="bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-4">
+          <h3>LoopLAB</h3>
+          <p>Copyright &copy;
+            <span id="year"></span>
+          </p>
+          <!--When you click "Contact Us" it will bring up a Modal-->
+          <button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact Us</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--FOOTER ENDS-->
+
+
+  <!--CONTACT MODAL-->
+  <div class="modal fade text-dark" id="contactModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Contact Us</h5>
+          <!--This will add a close button to the Modal-->
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary btn-block">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End of Contact Modal-->
+
+
+
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+
+
 
   <script>
     // Get the current year for copyright
-    $('#year').text(new Date() / getFullYear());
+    $('#year').text(new Date().getFullYear())
+
+    // Init Scroll-Spy
+    $('body').scrollspy({ target: '#main-nav' });
+
+    // Smooth Scrolling
+    $("#main-nav a").on('click', function (event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+
+        const hash = this.hash;
+
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function () {
+
+          window.location.hash = hash;
+        });
+      }
+    });
+
   </script>
 </body>
 
